@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -522,7 +522,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9bb266fed4684094aa40d2ad3493c7d8, type: 2}
   - {fileID: 2100000, guid: 691d530c7814637409cd9c775c00c393, type: 2}
   - {fileID: 2100000, guid: 5f972efda1120f040bf73a21d5d78f14, type: 2}
-  - {fileID: 2100000, guid: c878923d8689add498d5ddbe37d28c87, type: 2}
+  - {fileID: 2100000, guid: 3c174cda8ee901b4fb25509ecbc37317, type: 2}
   - {fileID: 2100000, guid: 5e41a809dbf894b40be38a173275c8c6, type: 2}
   - {fileID: 2100000, guid: eecf98b5086e2ce40bce10a7f0f92fde, type: 2}
 --- !u!1 &545508069
@@ -1004,7 +1004,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087060236422, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchTattoo1
+      value: SwitchTattoo_Carnival
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087060236422, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1082,6 +1082,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5517043087165892997, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Freckle
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043087166843301, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -1150,6 +1154,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: aef473b054d513f4a9a51012a51b422c, type: 3}
+    - target: {fileID: 5517043087178578822, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Smokey Freckle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043087180341231, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Mature
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043087183145861, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Dark Rose
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043087268668704, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043087432630104, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1186,6 +1206,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 27579ec606ed4ad42b4dcc6dbb290555, type: 3}
+    - target: {fileID: 5517043087464781998, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Pink
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043087554412901, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1222,6 +1246,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6452b7735d42cf141b5d915f95ea133b, type: 3}
+    - target: {fileID: 5517043087558853230, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: PinkGlitter
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043087559065084, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1240,7 +1268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087559065084, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchEyeshadow5
+      value: SwitchEyeshadow_RockRoll
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087559065084, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1286,6 +1314,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6452b7735d42cf141b5d915f95ea133b, type: 3}
+    - target: {fileID: 5517043087569518488, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Rock 'n Roll
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043087576176684, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1384,7 +1416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087638271463, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchEyeliner2
+      value: SwitchEyeliner_SmokeyEyes
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087638271463, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1394,13 +1426,25 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5517043087650961142, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Snow White
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043087657535476, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087660799273, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: SnowWhite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043087660799273, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043087662456940, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: LoveFreckle
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087663313909, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
@@ -1452,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087669654384, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchEyeliner3
+      value: SwitchEyeliner_SnowWhite
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087669654384, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1500,7 +1544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087672966305, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchCheek1
+      value: SwitchCheek_Freckle
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087672966305, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1536,7 +1580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087693400981, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchTattoo2
+      value: SwitchTattoo_LoveFreckle
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087693400981, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1596,7 +1640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087697654786, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchLip4
+      value: SwitchLip_WhiteGlitter
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087697654786, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1610,6 +1654,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 63489011d9b058741ba2101c437aa5d4, type: 3}
+    - target: {fileID: 5517043087730544431, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Mature
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043087738285774, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1678,6 +1726,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5517043087778770378, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Gothic
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043087795754612, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -1696,7 +1748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087795754612, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchLip2
+      value: SwitchLip_PinkGlitter
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087795754612, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1728,7 +1780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087812828388, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchTattoo5
+      value: SwitchTattoo_CarnivalForehead
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087812828388, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1768,7 +1820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087967375597, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchCheek2
+      value: SwitchCheek_Coral
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087967375597, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1779,6 +1831,10 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087973590505, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043087975078831, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1800,7 +1856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087996729302, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchEyeshadow4
+      value: SwitchEyeshadow_Pink
       objectReference: {fileID: 0}
     - target: {fileID: 5517043087996729302, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1836,7 +1892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088016238487, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchEyeshadow2
+      value: SwitchEyeshadow_Smokey
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088016238487, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1845,6 +1901,22 @@ PrefabInstance:
     - target: {fileID: 5517043088016238487, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088065529828, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Lavender
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088067246496, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Coral
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088070299829, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Mustache
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088110585108, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Rock'nRoll
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088110585108, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
@@ -1884,7 +1956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088143600327, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchCheek4
+      value: SwitchCheek_Lavender
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088143600327, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1916,7 +1988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088145476567, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchTattoo4
+      value: SwitchTattoo_Mustache
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088145476567, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1928,7 +2000,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088162090506, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Text
-      value: Eyeliner 3
+      value: Snow White
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088186839992, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: DarkRose
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088209166230, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
@@ -1956,7 +2032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088220661522, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchEyeshadow1
+      value: SwitchEyeshadow_SnowWhite
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088220661522, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -1970,10 +2046,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 27579ec606ed4ad42b4dcc6dbb290555, type: 3}
+    - target: {fileID: 5517043088270786686, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: SmokeyEyes
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043088285428062, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e012daf0b9f1f1e4bb46c2e7fc51e502, type: 3}
+    - target: {fileID: 5517043088287450403, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Freckle
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043088289402690, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1996,7 +2080,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088289402693, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchLip3
+      value: SwitchLip_LightRose
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088289402693, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2005,6 +2089,10 @@ PrefabInstance:
     - target: {fileID: 5517043088289402693, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088316748479, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Glittering
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088332224068, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2060,7 +2148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088389088387, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchTattoo3
+      value: SwitchTattoo_Gothic
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088389088387, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2110,21 +2198,73 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5517043088425121562, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Coral
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043088440230377, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 196aada1041d7c14faaff61830cc954c, type: 3}
+    - target: {fileID: 5517043088442037898, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Smokey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088447665147, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: CatEyes
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043088448449876, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 145b4426cb1b55b489c0fb929fb94f86, type: 3}
     - target: {fileID: 5517043088475036166, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Text
-      value: Eyeliner 1
+      value: Cat Eyes
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088486109461, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Diamond
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088534616330, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Carnival
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088584649123, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: LightRose
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088588818715, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Smokey
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088607241432, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088607785765, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Diamond
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088612790854, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Crimson
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088615109723, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Light Rose
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088617031495, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Mustache
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088618546657, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Lavender
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088665823138, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Carnival
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088668475098, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
@@ -2148,7 +2288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088668475101, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchCheek3
+      value: SwitchCheek_Crimson
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088668475101, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2220,7 +2360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088722073194, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchEyeliner1
+      value: SwitchEyeliner_CatEyes
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088722073194, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2292,7 +2432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088737734873, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchFullMakeup1
+      value: SwitchFullMakeup_SmokeyFreckle
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088737734873, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2301,6 +2441,10 @@ PrefabInstance:
     - target: {fileID: 5517043088737734873, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088746974002, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: SmokeyFreckle
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088746974002, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
@@ -2338,13 +2482,29 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6452b7735d42cf141b5d915f95ea133b, type: 3}
+    - target: {fileID: 5517043088765979249, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: SnowWhite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088775772145, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Pink
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043088775772145, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5517043088779189669, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Love Freckle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088780398545, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Crimson
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043088797905485, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Text
-      value: Eyeliner 2
+      value: Smokey Eyes
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088827754926, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2364,7 +2524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088827754926, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchEyeshadow3
+      value: SwitchEyeshadow_Glittering
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088827754926, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2396,7 +2556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088844289628, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchFullMakeup2
+      value: SwitchFullMakeup_Mature
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088844289628, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2414,6 +2574,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e012daf0b9f1f1e4bb46c2e7fc51e502, type: 3}
+    - target: {fileID: 5517043088874574251, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Glittering
+      objectReference: {fileID: 0}
     - target: {fileID: 5517043088875667478, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2421,6 +2585,18 @@ PrefabInstance:
     - target: {fileID: 5517043088892771748, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088899611079, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: Pink Glitter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088914174180, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: Gothic
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043088916301600, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Text
+      value: White Glitter
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088932220249, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_IsActive
@@ -2444,7 +2620,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088940176032, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SwitchLip1
+      value: SwitchLip_DarkRose
       objectReference: {fileID: 0}
     - target: {fileID: 5517043088940176032, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2465,6 +2641,10 @@ PrefabInstance:
     - target: {fileID: 5517043088984276582, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Text
       value: Eye Liner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517043089044820866, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
+      propertyPath: m_Name
+      value: WhiteGlitter
       objectReference: {fileID: 0}
     - target: {fileID: 5517043089047773959, guid: 5fc0f9ff5f3f09f46bc527025b46c166, type: 3}
       propertyPath: m_Sprite
